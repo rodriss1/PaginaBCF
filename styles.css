@@ -1,0 +1,90 @@
+html {
+    background-color:rgb(35, 35, 35);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(190, 190, 190);
+    overflow-x: hidden;
+}
+body {
+    margin: 0px;
+}
+#title {
+    display: inline;
+    top: 0;
+    float: left;
+    font-size: 80px;
+    background-color: rgb(45, 45, 45);
+    width: 100%;
+    padding-left: 8px;
+    font-weight: bold;
+    overflow: hidden;
+}
+#titleimage {
+    float: right;
+    width: 96px;
+    padding-right: 16px;
+}
+#encabezadobcftienda {
+    display: inline;
+    float: left;
+    background-color: rgb(55, 55, 55);
+    width: 100%;
+    padding: 8px 0px 8px 8px;
+}
+#pie {
+    margin-top: 2.5%;
+    position: relative;
+    padding: 16px 0px 16px 16px;
+    background-color: rgb(55, 55, 55);
+    width: 100%;
+    bottom: 0;
+    float: left;
+}
+#linkoficial {
+    float: right;
+    padding-right: 24px;
+}
+a:link {
+    color:rgb(190, 190, 190);
+    text-decoration: none;
+}
+a:visited {
+    color:rgb(190, 190, 190);
+    text-decoration: none;
+}
+a:hover {
+    transition: text-shadow 0.4s ease;
+    text-shadow: 0 1px 4px rgba(200, 200, 200, 0.5);
+    color:rgb(120, 120, 120);
+    text-decoration: none;
+    cursor: pointer;
+}
+a:active {
+    color:rgba(220, 220, 220, 0.65);
+    text-decoration: none;
+}
+.icon {
+    float: right;
+    width: 22px;
+    padding: 0px 25px 0px 0px;
+}
+.historiatarjeta {
+    float:left;
+    padding-top: 0px;
+    padding: 20px;
+    text-align:justify;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 40.752%;
+    border-radius: 12px;
+    background-color: rgba(10, 10, 10, 0.55);
+}
+.evolucionimagen {
+    padding-left: 5%;
+    padding-bottom: 5%;
+    width: 90%;
+}
+.titulohistoria {
+    margin: 0px;
+    font-weight: bold;
+}
